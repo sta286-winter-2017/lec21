@@ -59,7 +59,7 @@ First we'll consider the distribution of $Z^2$ when $Z \sim N(0,1)$.
 \M{Z^2}(t) = \E{e^{tZ^2}} &= \int\limits_{-\infty}^{\infty}e^{tz^2}\frac{1}{\sqrt{2\pi}}e^{-z^2/2}\,dz \\
 \onslide<2->{&= \int\limits_{-\infty}^{\infty}\frac{1}{\sqrt{2\pi}}e^{-\frac{1}{2}z^2(1-2t)}\,dz\\}
 \onslide<3->{&= \onslide<5->{\left(\frac{0.5}{0.5-t}\right)^{0.5}}\int\limits_{-\infty}^{\infty}\frac{1}{\onslide<4->{\left(\frac{0.5}{0.5-t}\right)^{0.5}}\sqrt{2\pi}}e^{ 
-  -\frac{1}{2}\left(\frac{z-0}{\left(\frac{0.5}{0.5-t}\right)^{0.5}}\right)^2}}
+  -\frac{1}{2}\left(\frac{z-0}{\left(\frac{0.5}{0.5-t}\right)^{0.5}}\right)^2}\,dz}
 \end{align*}
 
 \pause\pause\pause\pause\pause The integrand is a $N\left(0,\frac{0.5}{0.5-t}\right)$ density, so the integral equals 1, leaving $\M{Z^2}(t) = \left(\frac{0.5}{0.5-t}\right)^{0.5}$
