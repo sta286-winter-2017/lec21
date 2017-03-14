@@ -73,12 +73,12 @@ $$X \sim \chi^2_\nu$$
 
 \pause The parameter $\nu$ gets a curious name: \textit{degrees of freedom}. 
 
-\pause \textbf{Theorem:} If $Z_1,\ldots,Z_n$ are i.i.d. $N(0,1)$, then $\sum\limits_{i=1}^n Z^2 \sim \chi^2_n$.
+\pause \textbf{Theorem:} If $Z_1,\ldots,Z_n$ are i.i.d. $N(0,1)$, then $\sum\limits_{i=1}^n Z_i^2 \sim \chi^2_n$.
 
 \pause \textbf{Therefore:} If $X_1,\ldots,X_n$ are i.i.d. $N(\mu, \sigma)$, then:
 $$\sum\limits_{i=1}^n \left(\frac{X_i - \mu}{\sigma}\right)^2 \sim \chi^2_n$$
 
-\pause \textbf{Theorem:} If $X$ and $Y$ are independent with $X \sim \chi^2_m$ and $X + Y \sim \chi^2_{n+m}$, then $Y \sim \chi^2_m$.
+\pause \textbf{Theorem:} If $X$ and $Y$ are independent with $X \sim \chi^2_n$ and $X + Y \sim \chi^2_{n+m}$, then $Y \sim \chi^2_m$.
 
 ## the distribution of the sample variance $S^2$ - III
 
